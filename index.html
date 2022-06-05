@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSUN Map Game</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js" async></script>
+    <script src="https://kit.fontawesome.com/6c124ca7b3.js" crossorigin="anonymous"></script> <!--fontawesome-->
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdIrcCK_IY2BEpCQh1wS4z2roCxqgtkg0&callback=initMap&v=weekly"
+      async
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>CSUN Map Game</h1>
+    </header>
+    
+    <div class = "content">
+    <div class = "q-wrapper">
+    <div class = "questions">
+      <h2 id = "long"></h2>
+      <h2 id = "score"></h2>
+    <h2>Double click the location of:</h2>
+    <h3 class = "Q1">1.) Oviatt Library</h3>
+    <h3 id = "Q2"> </h3>
+    <h3 id = "Q3"> </h3>
+    <h3 id = "Q4"> </h3>
+    <h3 id = "Q5"> </h3>
+    </div>
+    </div>
+    <div class="map-container">
+        <div id="map"></div>
+        <div class="timer"><i class="far fa-clock"></i> 00:00:00</div>
+        <div id = "latlong"></div>
+        </div> 
+      </div>
+  </body>
+</html>
