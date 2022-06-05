@@ -1,2 +1,2 @@
 # CSUNMapGame
-A map game of CSUN using googled map api.
+A map game of CSUN using googles map api.
