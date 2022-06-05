@@ -1,0 +1,51 @@
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  color:red;
+  
+}
+
+.map-container {
+  height:700px;
+  width: 700px;
+  min-width: 800px;
+  min-height: 750px;
+  margin: auto;
+}
+#score {
+  text-align: center;
+  color: red;
+}
+
+.questions{
+  text-align: center;
+  
+}
+
+.content {
+    padding-top: 50px;
+    height: auto;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.timer {
+  font-size: 25px;
+}
+
+#latlong {
+  font-size: 25px;
+}
